@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import { assets } from '../../assets/assets'
 
 const Navbar = () => {
   return (
@@ -16,10 +17,10 @@ const Navbar = () => {
       
       <div className="navbar-right">
 
-        <img src={assets.search_icon} alt="" />
+        <img src={assets.search} alt="" />
 
         <div className="navbar-search-icon">
-          <img src={assets.basket_icon} alt="" />
+          <img src={assets.bag} alt="" />
           <div className="dot"></div>
         </div>
 
