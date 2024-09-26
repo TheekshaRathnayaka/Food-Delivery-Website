@@ -9,6 +9,7 @@ import menu4 from './menu4.jpg'
 import menu5 from './menu5.jpg'
 import menu6 from './menu6.jpg'
 import menu7 from './menu7.jpg'
+import menu8 from './menu8.jpg'
 
 export const assets = {
     frontImage,
@@ -21,7 +22,8 @@ export const assets = {
     menu4,
     menu5,
     menu6,
-    menu7
+    menu7,
+    menu8
 }
 
 export const menu_list = [
@@ -52,5 +54,10 @@ export const menu_list = [
     {
         menu_name: "Sea Food",
         menu_image: menu7
+    },
+    {
+        menu_name: "Beverages",
+        menu_image: menu8
     }
 ]
+
