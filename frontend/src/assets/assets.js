@@ -10,6 +10,7 @@ import menu5 from './menu5.jpg'
 import menu6 from './menu6.jpg'
 import menu7 from './menu7.jpg'
 import menu8 from './menu8.jpg'
+import rating_stars from './rating_stars.png'
 
 export const assets = {
     frontImage,
@@ -23,7 +24,8 @@ export const assets = {
     menu5,
     menu6,
     menu7,
-    menu8
+    menu8,
+    rating_stars
 }
 
 export const menu_list = [
