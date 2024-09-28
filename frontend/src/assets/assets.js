@@ -72,7 +72,7 @@ export const food_list = [
       },
       {
         _id: "2",
-        name: "Black forest cakes",
+        name: "Black forest cake",
         image: "Black forest cake.jpg",
         price: "6",
         description: "A rich chocolate cake layered with whipped cream and cherries, a German classic.",
@@ -272,7 +272,7 @@ export const food_list = [
       },
       {
         _id: "27",
-        name: "Healthy hearty salad (tuna, green beans, tomatoes, eggs, potatoes, black olives)",
+        name: "Healthy Hearty salad",
         image: "hearty_salad.jpg",
         price: "8",
         description: "A wholesome salad packed with tuna, vegetables, and protein for a nutritious meal.",
