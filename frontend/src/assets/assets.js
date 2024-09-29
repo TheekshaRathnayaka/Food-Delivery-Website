@@ -11,6 +11,9 @@ import menu6 from './menu6.jpg'
 import menu7 from './menu7.jpg'
 import menu8 from './menu8.jpg'
 import rating_stars from './rating_stars.png'
+import add_icon_green from './add_icon_green.png'
+import add_icon_white from './add_icon_white.png'
+import remove_icon_red from './remove_icon_red.png'
 
 export const assets = {
     frontImage,
@@ -25,7 +28,10 @@ export const assets = {
     menu6,
     menu7,
     menu8,
-    rating_stars
+    rating_stars,
+    add_icon_green,
+    add_icon_white,
+    remove_icon_red
 }
 
 export const menu_list = [
@@ -67,7 +73,7 @@ export const food_list = [
     {
         _id: "1",
         name: "Banana cake",
-        image: "Banana cake.jpg",
+        image: "Banana_cake.jpg",
         price: "4",
         description: "A moist and fluffy cake made with ripe bananas, perfect for any occasion.",
         category: "cakes"
@@ -75,7 +81,7 @@ export const food_list = [
       {
         _id: "2",
         name: "Black forest cake",
-        image: "Black forest cake.jpg",
+        image: "Black_forest _cake.jpg",
         price: "6",
         description: "A rich chocolate cake layered with whipped cream and cherries, a German classic.",
         category: "cakes"
@@ -83,7 +89,7 @@ export const food_list = [
       {
         _id: "3",
         name: "Carrot cake",
-        image: "carrot-cake.jpg",
+        image: "carrot_cake.jpg",
         price: "5",
         description: "A soft spiced cake with grated carrots, topped with cream cheese frosting.",
         category: "cakes"
@@ -91,7 +97,7 @@ export const food_list = [
       {
         _id: "4",
         name: "Chocolate cake with strawberry top",
-        image: "chocolate-cake-with-strawberry-top.jpg",
+        image: "chocolate_cake_with_strawberry_top.jpg",
         price: "7",
         description: "Decadent chocolate cake topped with fresh strawberries, combining sweetness and richness.",
         category: "cakes"
@@ -99,7 +105,7 @@ export const food_list = [
       {
         _id: "5",
         name: "Red fruit cake",
-        image: "red fruit cake.jpg",
+        image: "red_fruit_cake.jpg",
         price: "6",
         description: "A delicious cake packed with the flavors of red berries, perfect for a fruity delight.",
         category: "cakes"
@@ -107,7 +113,7 @@ export const food_list = [
       {
         _id: "6",
         name: "Chocolate panna cotta",
-        image: "Chocolate panna cotta.jpg",
+        image: "Chocolate_panna_cotta.jpg",
         price: "8",
         description: "A smooth and creamy vanila dessert with an indulgent texture.",
         category: "desserts"
@@ -115,7 +121,7 @@ export const food_list = [
       {
         _id: "7",
         name: "Chocolate pudding with almonds",
-        image: "chocolate pudding with almonds.jpg",
+        image: "chocolate_pudding_with_almonds.jpg",
         price: "9",
         description: "A rich chocolate pudding topped with crunchy almonds for a satisfying bite.",
         category: "desserts"
@@ -123,7 +129,7 @@ export const food_list = [
       {
         _id: "8",
         name: "Creme brulee-pudding",
-        image: "Creme brulee-pudding.jpg",
+        image: "Creme_brulee_pudding.jpg",
         price: "7",
         description: "A classic French dessert with a smooth custard base and a caramelized sugar top.",
         category: "desserts"
@@ -131,7 +137,7 @@ export const food_list = [
       {
         _id: "9",
         name: "Ice cream dessert with bananas",
-        image: "ice cream dessert with bananas.jpg",
+        image: "ice_cream_dessert_with_bananas.jpg",
         price: "7",
         description: "Creamy ice cream served with fresh bananas, a refreshing treat for any season.",
         category: "desserts"
@@ -139,7 +145,7 @@ export const food_list = [
       {
         _id: "10",
         name: "Ice cream with chocolate",
-        image: "ice-cream-with-chocolate.jpg",
+        image: "ice_cream_with_chocolate.jpg",
         price: "7",
         description: "Rich and creamy chocolate ice cream that melts in your mouth with every bite.",
         category: "desserts"
@@ -147,7 +153,7 @@ export const food_list = [
       {
         _id: "11",
         name: "Chicken pad thai noodles",
-        image: "chicken pad thai noodles.jpg",
+        image: "chicken_pad_thai_noodles.jpg",
         price: "12",
         description: "Stir-fried rice noodles with tender chicken, peanuts, and fresh vegetables in a tangy sauce.",
         category: "noodles & pasta"
@@ -155,7 +161,7 @@ export const food_list = [
       {
         _id: "12",
         name: "Heart pasta with chicken and tomatoes",
-        image: "Heart pasta.jpg",
+        image: "Heart_pasta.jpg",
         price: "11",
         description: "Heart-shaped pasta with juicy chicken and ripe tomatoes, a comforting dish for any meal.",
         category: "noodles & pasta"
@@ -163,7 +169,7 @@ export const food_list = [
       {
         _id: "13",
         name: "Pasta with sausage, tomatoes, green basil",
-        image: "Pasta-sausage.jpg",
+        image: "Pasta_sausage.jpg",
         price: "11",
         description: "A hearty pasta dish with spicy sausage, fresh tomatoes, and fragrant basil.",
         category: "noodles & pasta"
@@ -171,7 +177,7 @@ export const food_list = [
       {
         _id: "14",
         name: "Penne pasta",
-        image: "Penne pasta.jpg",
+        image: "Penne_pasta.jpg",
         price: "11",
         description: "Classic penne pasta served with a light tomato sauce and fresh herbs.",
         category: "noodles & pasta"
@@ -187,7 +193,7 @@ export const food_list = [
       {
         _id: "16",
         name: "Chocolate cupcake",
-        image: "chocolate cupcake.jpg",
+        image: "chocolate_cupcake.jpg",
         price: "3",
         description: "A rich, moist chocolate cupcake with a creamy frosting on top.",
         category: "pastry"
