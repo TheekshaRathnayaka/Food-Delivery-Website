@@ -96,7 +96,7 @@ export const food_list = [
       },
       {
         _id: "4",
-        name: "Chocolate cake with strawberry top",
+        name: "Strawberry top Chocolate cake",
         image: "chocolate_cake_with_strawberry_top.jpg",
         price: "7",
         description: "Decadent chocolate cake topped with fresh strawberries, combining sweetness and richness.",
@@ -120,7 +120,7 @@ export const food_list = [
       },
       {
         _id: "7",
-        name: "Chocolate pudding with almonds",
+        name: "Chocolate pudding",
         image: "chocolate_pudding_with_almonds.jpg",
         price: "9",
         description: "A rich chocolate pudding topped with crunchy almonds for a satisfying bite.",
@@ -136,7 +136,7 @@ export const food_list = [
       },
       {
         _id: "9",
-        name: "Ice cream dessert with bananas",
+        name: "Ice cream with bananas",
         image: "ice_cream_dessert_with_bananas.jpg",
         price: "7",
         description: "Creamy ice cream served with fresh bananas, a refreshing treat for any season.",
@@ -152,7 +152,7 @@ export const food_list = [
       },
       {
         _id: "11",
-        name: "Chicken pad thai noodles",
+        name: "Thai noodles",
         image: "chicken_pad_thai_noodles.jpg",
         price: "12",
         description: "Stir-fried rice noodles with tender chicken, peanuts, and fresh vegetables in a tangy sauce.",
@@ -160,7 +160,7 @@ export const food_list = [
       },
       {
         _id: "12",
-        name: "Heart pasta with chicken and tomatoes",
+        name: "Heart pasta",
         image: "Heart_pasta.jpg",
         price: "11",
         description: "Heart-shaped pasta with juicy chicken and ripe tomatoes, a comforting dish for any meal.",
@@ -168,7 +168,7 @@ export const food_list = [
       },
       {
         _id: "13",
-        name: "Pasta with sausage, tomatoes, green basil",
+        name: "Pasta with sausage",
         image: "Pasta_sausage.jpg",
         price: "11",
         description: "A hearty pasta dish with spicy sausage, fresh tomatoes, and fragrant basil.",
@@ -224,7 +224,7 @@ export const food_list = [
       },
       {
         _id: "20",
-        name: "Waffles with strawberry and blueberry",
+        name: "Waffles",
         image: "Waffles.jpg",
         price: "4",
         description: "Crispy waffles topped with fresh strawberries and blueberries, perfect for breakfast or dessert.",
@@ -256,7 +256,7 @@ export const food_list = [
       },
       {
         _id: "24",
-        name: "Chicken and mushrooms pizza",
+        name: "Chicken & mushrooms pizza",
         image: "chicken_pizza.jpg",
         price: "12",
         description: "Juicy chicken and flavorful mushrooms on a crispy pizza base with melted cheese.",
@@ -272,7 +272,7 @@ export const food_list = [
       },
       {
         _id: "26",
-        name: "Salad with vegetables",
+        name: "Vegetable Salad",
         image: "vegetable_salad.jpg",
         price: "6",
         description: "A refreshing salad with a variety of fresh vegetables, perfect as a healthy side.",
@@ -288,7 +288,7 @@ export const food_list = [
       },
       {
         _id: "28",
-        name: "Vegetable soup with meat and potatoes",
+        name: "Vegetable soup",
         image: "vegetable_meat_soup.jpg",
         price: "8",
         description: "A comforting soup with tender meat, fresh vegetables, and hearty potatoes.",
@@ -296,7 +296,7 @@ export const food_list = [
       },
       {
         _id: "29",
-        name: "Soup with chopped herbs and crackers",
+        name: "Chopped Herbs Soup",
         image: "herb_soup.jpg",
         price: "6",
         description: "A light and flavorful soup with fresh herbs and crunchy crackers on the side.",
