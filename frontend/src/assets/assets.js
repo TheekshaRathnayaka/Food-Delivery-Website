@@ -14,6 +14,7 @@ import rating_stars from './rating_stars.png'
 import add_icon_green from './add_icon_green.png'
 import add_icon_white from './add_icon_white.png'
 import remove_icon_red from './remove_icon_red.png'
+import facebook from './facebook.png'
 
 export const assets = {
     frontImage,
@@ -31,7 +32,8 @@ export const assets = {
     rating_stars,
     add_icon_green,
     add_icon_white,
-    remove_icon_red
+    remove_icon_red,
+    facebook
 }
 
 export const menu_list = [
