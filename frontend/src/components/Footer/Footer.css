@@ -50,3 +50,7 @@
 .footer-content-left .logo{
     width: 200px;
 }
+
+.footer-content-left p{
+    width: 50%;
+}

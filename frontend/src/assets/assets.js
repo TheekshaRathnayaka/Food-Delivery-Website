@@ -15,6 +15,10 @@ import add_icon_green from './add_icon_green.png'
 import add_icon_white from './add_icon_white.png'
 import remove_icon_red from './remove_icon_red.png'
 import facebook from './facebook.png'
+import twitter from './twitter.png'
+import linkedin from './linkedin.png'
+import play_store from './play_store.png'
+import app_store from './app_store.png'
 
 export const assets = {
     frontImage,
@@ -33,7 +37,11 @@ export const assets = {
     add_icon_green,
     add_icon_white,
     remove_icon_red,
-    facebook
+    facebook,
+    twitter,
+    linkedin,
+    play_store,
+    app_store
 }
 
 export const menu_list = [
