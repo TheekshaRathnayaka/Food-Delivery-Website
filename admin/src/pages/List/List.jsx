@@ -32,7 +32,29 @@ const List = () => {
       
       <p>All Foods List</p>
 
-      <div></div>
+      <div className='list-table'>
+
+        <div className='list-table-format title'>
+          <b>Image</b>
+          <b>Name</b>
+          <b>Category</b>
+          <b>Price</b>
+          <b>Action</b>
+        </div>
+
+        {list.map((item,index) => {
+          return (
+            <div className='list-table-format' key={index}>
+              <img src={`${url}/images` + item.image} alt='' />
+              <p>{item.name}</p>
+              <p>{item.category}</p>
+              <p>${item.price}</p>
+              <p>X</p>
+            </div>
+          )
+        })}
+        
+      </div>
     </div>
   )
 }
