@@ -9,15 +9,17 @@ const List = () => {
   const [list, setList] = useState([]);
   
   const fetchList = async () => {
-    const response = await axios.get(`${url}/api/food/list`);
-    console.log(response.data);
-    
+    const response = await axios.get(`${url}/api/food/list`); 
     if(response.data.success){
       setList(response.data.data);
     } 
     else {
       toast.error("Error")
     }
+  }
+
+  const removeFood = async(foodId) => {
+    console.log(foodId);
   }
 
   useEffect(() => {
@@ -49,11 +51,11 @@ const List = () => {
               <p>{item.name}</p>
               <p>{item.category}</p>
               <p>${item.price}</p>
-              <p>X</p>
+              <p onClick={() => removeFood(item._id)} className='cursor'>X</p>
             </div>
           )
         })}
-        
+
       </div>
     </div>
   )
