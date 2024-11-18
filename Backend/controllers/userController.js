@@ -5,5 +5,12 @@ import validator from "validator"
 
 //login user
 const loginUser = async (req,res) => {
-    
+
 }
+
+//register user
+const registerUser = async (req,res) => {
+
+}
+
+export {loginUser, registerUser}
