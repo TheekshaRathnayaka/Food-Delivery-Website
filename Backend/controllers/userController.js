@@ -12,13 +12,25 @@ const loginUser = async (req,res) => {
 const registerUser = async (req,res) => {
     const {name,password,email} = req.body;
     try {
+        //checking is user already exists
         const exists = await userModel.findOne({email});
         if (exists) {
             return res.json({success:false, message:"User already exists"})
         }
+
+        //validate email format & strong pw
+        if(!validator.isEmail(email)) {
+            return res.json({success:false, message:"Invalid email format"})
+        }
+        if(password.length < 8) {
+            return res.json({success:false, message:"Please enter a strong password"})
+        }
+        
     } catch (error) {
         
     }
 }
 
 export {loginUser, registerUser}
+
+//6.02.54
