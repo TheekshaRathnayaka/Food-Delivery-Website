@@ -8,6 +8,11 @@ const loginUser = async (req,res) => {
 
 }
 
+//generate jwt token
+const createToken = (id) => {
+    return jwt.sign({id},process.env.JWT_SECRET)
+}
+
 //register user
 const registerUser = async (req,res) => {
     const {name,password,email} = req.body;
@@ -36,7 +41,9 @@ const registerUser = async (req,res) => {
             email:email,
             password:hashedPassword
         })
-        
+
+        const user = await newUser.save()
+
     } catch (error) {
         
     }
