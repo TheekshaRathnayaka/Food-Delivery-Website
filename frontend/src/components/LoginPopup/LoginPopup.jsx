@@ -11,6 +11,12 @@ const LoginPopup = ({setShowLogin}) => {
       password:""
     })
 
+    const onChangeHandler = (event) => {
+      const name = event.target.name;
+      const value = event.target.value;
+      setData(data => ({...data,[name]:value}))
+    }
+
   return (
     <div className='login-popup'>
 
