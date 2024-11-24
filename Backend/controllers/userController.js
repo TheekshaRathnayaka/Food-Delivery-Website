@@ -5,7 +5,17 @@ import validator from "validator"
 
 //login user
 const loginUser = async (req,res) => {
+    const {email, password} = req.body;
+    try {
+        const user = await userModel.findOne({email});
 
+        if (!user) {
+            return res.json({success:false, message:"User doesn't exist"})
+        }
+        
+    } catch (error) {
+        
+    }
 }
 
 //generate jwt token
@@ -45,12 +55,13 @@ const registerUser = async (req,res) => {
         const user = await newUser.save()
         const token = createToken(user._id)
         res.json({success:true,token});
-        
+
     } catch (error) {
-        
+        console.log(error);
+        res.json({success:false, message:"Error"})
     }
 }
 
 export {loginUser, registerUser}
 
-//6.08.02
+//6.15.02
