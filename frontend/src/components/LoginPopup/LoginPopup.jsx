@@ -1,8 +1,11 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import './LoginPopup.css'
 import { assets } from '../../assets/assets';
+import { StoreContext } from '../../context/StoreContext';
 
 const LoginPopup = ({setShowLogin}) => {
+
+  const {url} = useContext(StoreContext)
 
     const [currState, setCurrState] = useState('Login');
     const [data, setData] = useState({
@@ -17,10 +20,15 @@ const LoginPopup = ({setShowLogin}) => {
       setData(data => ({...data,[name]:value}))
     }
 
+    const onLogin = async(event) => {
+      event.preventDefault()
+      let newUrl = url;
+    }
+
   return (
     <div className='login-popup'>
 
-      <form className="login-popup-container">
+      <form onSubmit={onLogin} className="login-popup-container">
 
         <div className="login-popup-title">
             <h2>{currState}</h2>
@@ -33,7 +41,7 @@ const LoginPopup = ({setShowLogin}) => {
             <input name='password' onChange={onChangeHandler} value={data.password} type="password" placeholder="Password" required />
         </div>
 
-        <button>{ currState === "Sign Up"? "Create account": "Login" }</button>
+        <button type='submit'>{ currState === "Sign Up"? "Create account": "Login" }</button>
 
         <div className="login-popup-condition">
           <input type='checkbox' required />
