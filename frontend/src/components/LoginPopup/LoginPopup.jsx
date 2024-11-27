@@ -14,6 +14,7 @@ const LoginPopup = ({setShowLogin}) => {
       password:""
     })
 
+    //add change handling for login
     const onChangeHandler = (event) => {
       const name = event.target.name;
       const value = event.target.value;
