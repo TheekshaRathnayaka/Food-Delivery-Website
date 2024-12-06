@@ -9,3 +9,8 @@ const addToCart = async (req,res) => {
 const removeFromCart = async (req,res) => {
 
 }
+
+//fetch user cart data
+const getCart = async (req,res) => {
+
+}
