@@ -10,10 +10,13 @@ const StoreContextProvider = (props) => {
     const [food_list, setFoodList] = useState([])
 
     const addToCart = (itemId) => {
-            setCartItems((prev) => {
-                const currentCount = prev[itemId] || 0;
-                return {...prev, [itemId]: currentCount + 1}; 
-            });
+        if (!cartItems[itemId]) {
+            setCartItems((prev) => ({ ...prev, [itemId]: 1}))
+        }
+        else {
+            setCartItems((prev) => ({ ...prev, [itemId]: 1}))
+        }
+         
     }
 
     const removeFromCart = (itemId) => {
