@@ -21,16 +21,8 @@ const StoreContextProvider = (props) => {
          }
     }
 
-    const removeFromCart = (itemId) => {
-        setCartItems((prev) => {
-            const currentCount = prev[itemId] || 0;
-            if (currentCount === 1) {
-                const { [itemId]: _, ...rest } = prev; // Remove the item from the cart if its count reaches 0
-                return rest;
-            } else {
-                return {...prev, [itemId]: currentCount - 1};
-            }
-        });
+    const removeFromCart = async (itemId) => {
+        setCartItems((prev) => ({...prev, [itemId]: prev[itemId] - 1}));
     }    
 
     const getTotalCartAmount = () => {
